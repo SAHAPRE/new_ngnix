@@ -8,7 +8,7 @@ users = {}
 
 @app.route("/")
 def hello():
-    return "<h1 style='color:green'>Hello There, what are you doing!</h1>"
+    return "<h1 style='color:green'>Hello Nginx!</h1>"
 
 @app.route("/signup", methods=["GET", "POST"])
 def signup():
